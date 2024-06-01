@@ -1,45 +1,13 @@
-# Welcome to Engine3D Documentation
+# Engine3D Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Overview
+Engine3D exists to help rroviding students to being able to learn how to architecturally develop complex subsystems to develop, providing solutions to widely variations of problems.
 
-## Code Annotation Examples
+Engine3D's design rules should be:
+    1. Portable and Cross-platform support
+    2. OS Platform-agnostic
+    3. Safe, Reliable, and Testable or can be Tested
+    4. Easy builds
 
-### Codeblocks
-
-Some `code` goes here.
-
-
-Plain code text
-
-## Adding a title to your code snippets
-```c++ title="main.cpp"
-#include <iostream>
-using namespace std;
-
-int main(int argc, char** argv){
-
-    return 0;
-}
-```
-
-## Adding a line numbers to your code snippets
-```c++ title="main.cpp" linenums="1"
-#include <string>
-using namespace std;
-
-int main(int argc, char** argv){
-    std::string str = "Hello String!";
-    printf("%s", str.c_str());
-    return 0;
-}
-```
-
-## Icons and Emojs
-
-:smile: 
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-github:{ .github }
-
-:octicons-heart-fill-24:{ .heart }
+## Basics
+Engine3D is a multipurpose open source engine. Used for game development, animations, film-making, and running simulations. At the core of Engine3D will be our internal architectures for boilerplate foundations, graphics api-agnostic API's, UI wrapper, and code-specific runtime utilities, loggers, and other implementations. Decoupling to enable application to be generic enough allowing users and students alike to build applications for certain targeted platforms.
