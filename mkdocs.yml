@@ -14,7 +14,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  custom_dir: overrides
   highlightjs: true
   hljs_style:
     - monokai
