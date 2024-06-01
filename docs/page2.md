@@ -1,15 +1,15 @@
 # Getting Started
 
 ## Prerequisites
-`python`: 3.10 or above \
-`conan`: 2.2.0 or above \
-`llvm`: 17 or above \
-`make`: CMake downloaded via conan to make our project \
-`git`: (only needs to really be installed on Windows)
+* `python`: 3.10 or above
+* `conan`: 2.2.0 or above
+* `llvm`: 17 or above
+* `make`: CMake downloaded via conan to make our project
+* `git`: (only needs to really be installed on Windows)
 
 ## Installing prerequisites
 
-=== Windows
+=== "Windows"
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
