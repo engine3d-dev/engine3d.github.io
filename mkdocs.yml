@@ -50,4 +50,4 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a href="https://github.com/sfsu-dev" target="_blank" rel="noopener">Engine3D</a>
+  &copy; 2024 <a href="https://github.com/sfsu-dev" target="_blank" rel="noopener">Aaron</a>

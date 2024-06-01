@@ -1,4 +1,8 @@
-# Engine3D Documentation
+<!-- # Engine3D Documentation -->
+<div align="center">
+<img style="height:200px" src="https://raw.githubusercontent.com/libhal/.github/main/profile/logo.png">
+<h1>Welcome to libhal</h1>
+</div>
 
 ## Overview
 Engine3D exists to help rroviding students to being able to learn how to architecturally develop complex subsystems to develop, providing solutions to widely variations of problems.
