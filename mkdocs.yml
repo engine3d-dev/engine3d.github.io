@@ -1,4 +1,6 @@
 site_name: Engine3D
+repo_url: https://github.com/sfsu-dev/engine3d
+repo_name: engine3d
 
 theme:
   name: material
@@ -12,6 +14,10 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+  custom_dir: overrides
+  highlightjs: true
+  hljs_style:
+    - monokai
   language: en
   palette:
     - scheme: default
