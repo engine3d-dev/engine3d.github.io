@@ -32,3 +32,5 @@
 *.app
 
 venv/
+.DS_Store
+.cache/
