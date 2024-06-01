@@ -1,10 +1,10 @@
 # Getting Started
 
 ## Prerequisites
-`python`: 3.10 or above
-`conan`: 2.2.0 or above
-`llvm`: 17 or above
-`make`: CMake downloaded via conan to make our project
+`python`: 3.10 or above \
+`conan`: 2.2.0 or above \
+`llvm`: 17 or above \
+`make`: CMake downloaded via conan to make our project \
 `git`: (only needs to really be installed on Windows)
 
 ## Installing prerequisites
