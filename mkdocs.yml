@@ -1,5 +1,5 @@
 site_name: Engine3D
-repo_url: https://github.com/sfsu-dev/engine3d
+repo_url: https://github.com/engine3d-dev/engine3d
 repo_name: engine3d
 
 theme:
@@ -35,7 +35,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/sfsu-dev/Engine3D
+      link: https://github.com/engine3d-dev/Engine3D
 
 markdown_extensions:
   - pymdownx.highlight:
