@@ -7,6 +7,9 @@
 ## Overview
 Engine3D exists to help students to be able to learn how to architecturally develop complex subsystems, providing solutions to wide variations of problems.
 
+🚧 NOTE: Documentation Website Still In-Progress 🚧
+ 
+
 Engine3D's design rules should be:
 
 1. Portable and Cross-platform support.
