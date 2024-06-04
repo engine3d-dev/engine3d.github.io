@@ -4,7 +4,7 @@ repo_name: engine3d
 
 theme:
   name: material
-  logo: assets/engine3d-high-resolution-logo-transparent.png
+  logo: assets/engine3d-logos/engine3d-high-resolution-logo-transparent.png
   features:
     - navigation.tabs
     - navigation.sections
