@@ -11,13 +11,12 @@
 
 === "Windows"
 
-It is recommended to using Choco for an easy installation for Windows.
-
-To install `choco`, open powershell with admin access abd run this following command in your terminal:
-    ```powershell
-    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-    ```
+    It is recommended to using Choco for an easy installation for Windows.
     
+    To install `choco`, open powershell with admin access abd run this following command in your terminal:
+        ```powershell
+        Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    ```
     
     !!! tip
         If `choco` command does not work after running this script try closing and reopening powershell again.
