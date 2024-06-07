@@ -8,13 +8,19 @@ theme:
   features:
     - navigation.tabs
     - content.tabs.link
-    - navigation.sections
     - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.annotation
-    - content.code.copy
+    - navigation.tracking
+    - navigation.footer
+    # - navigation.expand
+    # - navigation.tabs
+    # - content.tabs.link
+    # - navigation.sections
+    # - toc.integrate
+    # - navigation.top
+    # - search.suggest
+    # - search.highlight
+    # - content.code.annotation
+    # - content.code.copy
   highlightjs: true
   hljs_style:
     - monokai
