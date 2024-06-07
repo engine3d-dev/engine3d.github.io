@@ -107,6 +107,8 @@ Setting up a conan profile for your specific platforms.
     conan config install -sf profiles/x86_64/linux/ -tf profiles https://engine3d-dev/conan-config.git
     ```
 
+---
+
 ## Building Engine3D
 
 Clone the engine3d repository. Here is the build process, using Conan.
@@ -129,6 +131,7 @@ To build you do the following step below using the conan command `conan build`.
 conan build .
 ```
 
+---
 
 ## Different Build Types
 There are two different build types that you can do for engine3d, `Release` and `Debug`.
@@ -136,6 +139,8 @@ There are two different build types that you can do for engine3d, `Release` and 
 `Release` is used when you want to build with the most optimizations enabled.
 
 `Debug` would be used for enabling code that would be enabled for debugging purposes, and tends to be much slower than Release mode.
+
+---
 
 ## Running Engine3D
 
