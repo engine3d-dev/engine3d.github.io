@@ -24,8 +24,8 @@
         If `choco` command does not work after running this script try closing and reopening powershell again.
         When `choco` prompts you to run install scripts from commands below, enter `all` so it could install everything.
         
-        After installing MinGW, add `C:\Users\<username>\ProgramData\chocolatey\bin` to your environment variable path to make it available globally.
-        Creating a copy in the `make.exe` and renaming it to `mingw32-make.exe` to get make working.
+    After installing MinGW, add `C:\Users\<username>\ProgramData\chocolatey\bin` to your environment variable path to make it available globally.
+    Creating a copy in the `make.exe` and renaming it to `mingw32-make.exe` to get make working.
     
     Install `git` (powershell must be admin):
     
@@ -58,22 +58,21 @@
     
 === "Ubuntu"
 
-    Make sure homebrew is installed, if not installed run the following command below.
-    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
     Install wget if it isn't already on your system
     `sudo apt-get install wget`
 
     Install the latest version of `llvm`
-    ```
+    
+    ``` bash
     wget https://apt.llvm.org/llvm.sh
     chmod +x llvm.sh
     sudo ./llvm.sh
     ```
+    
     !!! info
         If your using 20.04, you have to upgrade python to 3.10
     
-    ```
+    ``` bash
     sudo apt update
     sudo apt install software-properties-common -y
     sudo add-apt-repository ppa:deadsnakes/ppa
@@ -81,7 +80,7 @@
     ```
 
     Installing Conan
-    ```
+    ``` bash
     python -m pip install -U "conan>=2.2.2"
     ```
 ---
