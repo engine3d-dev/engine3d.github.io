@@ -48,6 +48,10 @@ extra_css:
   - assets/extra.css
 
 markdown_extensions:
+  - admonition
+  - pymdownx.mark # highlighting
+  - pymdownx.superfences # nest code
+  - codehilite # code syntax coding
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
