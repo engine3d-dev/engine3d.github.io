@@ -57,7 +57,7 @@ python -m pip install -U "conan>=2.2.2"
 
 === "C"
 
-    ```C
+    ``` C
     #include <iostream>
 
     int main(void){
@@ -67,7 +67,7 @@ python -m pip install -U "conan>=2.2.2"
 
 === "C++"
 
-    ```C++
+    ``` C++
     #include <iostream>
     using namespace std;
 
