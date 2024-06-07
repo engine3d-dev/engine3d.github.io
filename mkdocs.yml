@@ -43,6 +43,9 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/engine3d-dev/Engine3D
+      
+extra_css:
+  - assets/extra.css
 
 markdown_extensions:
   - pymdownx.superfences:
