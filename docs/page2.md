@@ -7,8 +7,8 @@ These are needed before working to get engine3d building successfully on your pl
 * `python`: 3.10 or above
 * `conan`: 2.2.0 or above
 * `llvm`: 17 or above
-* `make`: CMake downloaded via conan to make our project
-* `git`: (only needs to really be installed on Windows)
+* `make`: CMake downloaded using conan to build Engine3D
+* `git`: (only needs to be installed via installer on Windows)
 
 === "Windows"
 
