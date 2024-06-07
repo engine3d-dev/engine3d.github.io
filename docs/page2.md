@@ -24,9 +24,10 @@ What you will need to start contributing to Engine3D.
     
         If `choco` command does not work after running this script try closing and reopening powershell again.
         When `choco` prompts you to run install scripts from commands below, enter `all` so it could install everything.
-        
-    After installing MinGW, add `C:\Users\<username>\ProgramData\chocolatey\bin` to your environment variable path to make it available globally.
-    Creating a copy in the `make.exe` and renaming it to `mingw32-make.exe` to get make working.
+
+    !!! info
+        After installing MinGW, add `C:\Users\<username>\ProgramData\chocolatey\bin` to your environment variable path to make it available globally.
+        Creating a copy in the `make.exe` and renaming it to `mingw32-make.exe` to get make working.
     
     Install `git` (powershell must be admin):
     
@@ -71,6 +72,7 @@ What you will need to start contributing to Engine3D.
     ```
     
     !!! info
+    
         If your using 20.04, you have to upgrade python to 3.10
     
     ``` bash
