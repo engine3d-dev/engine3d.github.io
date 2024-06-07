@@ -26,8 +26,9 @@ What you will need to start contributing to Engine3D.
         When `choco` prompts you to run install scripts from commands below, enter `all` so it could install everything.
 
     !!! info
+    
         After installing MinGW, add `C:\Users\<username>\ProgramData\chocolatey\bin` to your environment variable path to make it available globally.
-        Creating a copy in the `make.exe` and renaming it to `mingw32-make.exe` to get make working.
+        Creating a copy in the `make.exe` and renaming it to `mingw32-make.exe` to get make working. If you do not do this, you will get `CMAKE_MAKE_PROGRAM not set` error.
     
     Install `git` (powershell must be admin):
     
