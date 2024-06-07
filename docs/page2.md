@@ -54,3 +54,25 @@ python -m pip install -U "conan>=2.2.2"
 === "MacOS X"
 
     Make sure homebrew is installed, if not installed run the following command below.
+
+=== "C"
+
+    ```C
+    #include <iostream>
+
+    int main(void){
+        return 0;
+    }
+    ```
+
+=== "C++"
+
+    ```C++
+    #include <iostream>
+    using namespace std;
+
+    int main(){
+        return 0;
+    }
+    ```
+
