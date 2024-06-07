@@ -119,6 +119,7 @@ conan create . -b missing
 ```
 
 Once you have the step above has finished, continue with building engine3d.
+
 To build you do the following step below using the conan command `conan build`.
 
 ``` bash
@@ -128,7 +129,9 @@ conan build .
 
 ## Different Build Types
 There are two different build types that you can do for engine3d, `Release` and `Debug`.
+
 `Release` is used when you want to build with the most optimizations enabled.
+
 `Debug` would be used for enabling code that would be enabled for debugging purposes, and tends to be much slower than Release mode.
 
 
