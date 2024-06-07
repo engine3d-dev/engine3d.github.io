@@ -1,6 +1,6 @@
-# Getting Started
+# 🛸 Getting Started
 
-## Prerequisites
+## ✅ Prerequisites
 
 These are needed before working to getting engine3d building successfully on your platform.
 
