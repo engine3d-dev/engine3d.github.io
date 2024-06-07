@@ -1,13 +1,14 @@
 # Getting Started
 
 ## Prerequisites
+
+What you will need to start contributing to Engine3D.
+
 * `python`: 3.10 or above
 * `conan`: 2.2.0 or above
 * `llvm`: 17 or above
 * `make`: CMake downloaded via conan to make our project
 * `git`: (only needs to really be installed on Windows)
-
-## Installing prerequisites
 
 === "Windows"
 
@@ -84,3 +85,52 @@
     python -m pip install -U "conan>=2.2.2"
     ```
 ---
+
+## Setting up Conan
+
+Setting up conan profile for your specific platforms and architectures
+
+=== "Windows
+    If you are on an x86 architecture for Windows.
+    
+    ```powershell
+    conan config install -sf profiles/x86_64/Windows/ -tf profiles https://engine3d-dev/conan-config.git
+    ```
+
+=== X86 Linux
+    If you are on a linux platform that uses an x86 architecture.
+    
+    ```bash
+    conan config install -sf profiles/x86_64/linux/ -tf profiles https://engine3d-dev/conan-config.git
+    ```
+
+## Building engine3d
+
+Clone the engine3d repository. Here is the build process, using Conan.
+
+Before building engine3d, you'll need to use the `conan create` command to install all the dependencies of engine3d and build the project.
+
+!!! tip
+    `-b missing` means to build our packages, and install any missing packages that we might have
+    Simply doing `conan create .` on the first build should be fine.
+
+```bash
+conan create . -b missing
+```
+
+Once you have the step above has finished, continue with building engine3d.
+To build you do the following step below using the conan command `conan build`.
+
+``` bash
+conan build .
+```
+
+
+## Different Build Types
+There are two different build types that you can do for engine3d, `Release` and `Debug`.
+`Release` is used when you want to build with the most optimizations enabled.
+`Debug` would be used for enabling code that would be enabled for debugging purposes, and tends to be much slower than Release mode.
+
+
+
+
