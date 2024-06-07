@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-What you will need to start contributing to Engine3D.
+These are needed before working to getting engine3d building successfully on your platform.
 
 * `python`: 3.10 or above
 * `conan`: 2.2.0 or above
