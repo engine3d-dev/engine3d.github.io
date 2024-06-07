@@ -20,12 +20,12 @@ What you will need to start contributing to Engine3D.
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
     ```
     
-    !!! tip
+!!! tip
     
         If `choco` command does not work after running this script try closing and reopening powershell again.
         When `choco` prompts you to run install scripts from commands below, enter `all` so it could install everything.
 
-    !!! info
+!!! info
     
         After installing MinGW, add `C:\Users\<username>\ProgramData\chocolatey\bin` to your environment variable path to make it available globally.
         Creating a copy in the `make.exe` and renaming it to `mingw32-make.exe` to get make working. If you do not do this, you will get `CMAKE_MAKE_PROGRAM not set` error.
