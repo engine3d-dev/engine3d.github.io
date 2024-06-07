@@ -1,7 +1,6 @@
-
+# 🏡 Home
 <div align="center">
 <h1>Welcome to Engine3D</h1>
-   <p style="text-transform: lowercase; font-weight: normal; font-size: 50%">Interactive multipurpose 3D engine</p>
 </div>
 
 ## Overview
