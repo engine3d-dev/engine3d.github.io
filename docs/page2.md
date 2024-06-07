@@ -91,14 +91,16 @@ What you will need to start contributing to Engine3D.
 
 Setting up conan profile for your specific platforms and architectures
 
-=== "Windows
+=== "Windows"
+
     If you are on an x86 architecture for Windows.
     
     ```powershell
     conan config install -sf profiles/x86_64/Windows/ -tf profiles https://engine3d-dev/conan-config.git
     ```
 
-=== X86 Linux
+=== "X86 Linux"
+
     If you are on a linux platform that uses an x86 architecture.
     
     ```bash
