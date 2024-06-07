@@ -89,7 +89,7 @@ These are needed before working to getting engine3d building successfully on you
 
 ## Setting up Conan
 
-Setting up conan profile for your specific platforms and architectures
+Setting up a conan profile for your specific platforms.
 
 === "Windows"
 
