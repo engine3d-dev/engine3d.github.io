@@ -22,6 +22,8 @@
     !!! tip
         If `choco` command does not work after running this script try closing and reopening powershell again.
         When `choco` prompts you to run install scripts from commands below, enter `all` so it could install everything.
+
+        After installing MinGW, add C:\Users\<username>\ProgramData\chocolatey\bin to your environment variable path to make it available globally.
     
     Install `git` (powershell must be admin):
     ```powershell
