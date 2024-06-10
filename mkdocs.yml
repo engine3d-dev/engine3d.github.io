@@ -45,7 +45,7 @@ extra:
       link: https://github.com/engine3d-dev/Engine3D
       
 extra_css:
-  - assets/background.css
+  - assets/extra.css
   
   plugins:
   - search
