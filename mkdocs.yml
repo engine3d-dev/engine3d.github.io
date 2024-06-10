@@ -46,12 +46,6 @@ extra:
       
 extra_css:
   - assets/extra.css
-  
-  plugins:
-  - search
-  - literate-nav:
-      nav_file: summary.md
-      tab_length: 2
 
 markdown_extensions:
   - admonition
