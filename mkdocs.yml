@@ -49,11 +49,11 @@ extra_css:
 
 # docs_dir: docs
 
-plugins:
-  - search
-  - literate-nav:
-      nav_file: docs/tabs.md
-      tab_length: 2
+# plugins:
+#   - search
+#   - literate-nav:
+#       nav_file: docs/tabs.md
+#       tab_length: 2
 
 markdown_extensions:
   - admonition
