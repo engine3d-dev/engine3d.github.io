@@ -47,6 +47,8 @@ extra:
 extra_css:
   - assets/extra.css
 
+docs_dir: mkdocs
+
 plugins:
   - search
   - literate-nav:
