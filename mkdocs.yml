@@ -47,12 +47,12 @@ extra:
 extra_css:
   - assets/extra.css
 
-docs_dir: docs
+# docs_dir: docs
 
 plugins:
   - search
   - literate-nav:
-      nav_file: summary.md
+      nav_file: docs/tabs.md
       tab_length: 2
 
 markdown_extensions:
