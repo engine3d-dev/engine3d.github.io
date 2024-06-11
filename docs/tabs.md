@@ -1,5 +1,5 @@
 - [home](index.md)
-- [About]
+- [About](about.md)
 - [Getting Started](page2.md)
 - [Used Guide](page3.md)
 - [API]
