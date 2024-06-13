@@ -12,6 +12,11 @@ These are needed before working to get engine3d building successfully on your pl
 
 === "Windows"
 
+    !!! tip
+    
+        Installing DirectX is optional since DirectX is not supported in Engine3d yet.
+        Adding it as an option for future releases that may have support for DirectX.
+
     It is recommended to use Choco for an easy install for the Windows platform.
     
     To install `choco`, open powershell with admin access and run the following command in your terminal:
@@ -50,6 +55,10 @@ These are needed before working to get engine3d building successfully on your pl
     
     ```powershell
     choco install llvm
+    ```
+
+    ```powershell
+    choco install directx
     ```
     
     Install `conan` (powershell must be admin)
