@@ -14,8 +14,9 @@ These are needed before working to get engine3d building successfully on your pl
 
     !!! tip
     
-        Installing DirectX is optional since DirectX is not supported in Engine3d yet.
-        Adding it as an option for future releases that may have support for DirectX.
+        Installing DirectX is optional, since Engine3D does not support it yet.
+        
+        Adding it as an option for future change to using DirectX when you run on Windows.
 
     It is recommended to use Choco for an easy install for the Windows platform.
     
