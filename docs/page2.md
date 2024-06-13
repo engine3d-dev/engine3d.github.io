@@ -58,6 +58,8 @@ These are needed before working to get engine3d building successfully on your pl
     choco install llvm
     ```
 
+    Install `directx` (Optional)
+    
     ```powershell
     choco install directx
     ```
